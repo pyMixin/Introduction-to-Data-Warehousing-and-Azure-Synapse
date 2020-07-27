@@ -1,3 +1,4 @@
+--OPENROESET using CVS Files
 SELECT  *   FROM OPENROWSET(
           BULK  'abfss://azureudemycoursefs@azureudemycourseadls.dfs.core.windows.net/datasets_33080_1320127_car data.csv', 
             FORMAT  =   'CSV', 
