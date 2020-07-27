@@ -1,9 +1,9 @@
---OPENROESET using CVS Files
+--OPENROWSET using CVS Files
 SELECT  *   FROM OPENROWSET(
           BULK  'abfss://azureudemycoursefs@azureudemycourseadls.dfs.core.windows.net/datasets_33080_1320127_car data.csv', 
-            FORMAT  =   'CSV', 
-            FIELDTERMINATOR  = ',', 
-            ROWTERMINATOR  =   '\n'     
+          FORMAT  =   'CSV', 
+          FIELDTERMINATOR  = ',', 
+          ROWTERMINATOR  =   '\n'     
 ) WITH (
   [Car_Name] VARCHAR (100)  COLLATE Latin1_General_BIN2, 
   [Year] smallint, 
