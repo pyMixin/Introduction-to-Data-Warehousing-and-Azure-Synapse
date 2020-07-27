@@ -1,4 +1,5 @@
---OPENROWSET using CVS Files
+--READING CSV FILE FROM ADLS USING SQL ON DEMAND
+--OPENROWSET USING CVS FORMAT
 SELECT  *   FROM OPENROWSET(
           BULK  'abfss://azureudemycoursefs@azureudemycourseadls.dfs.core.windows.net/datasets_33080_1320127_car data.csv', 
           FORMAT  =   'CSV', 
