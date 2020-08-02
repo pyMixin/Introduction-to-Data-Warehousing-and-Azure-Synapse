@@ -1,0 +1,2 @@
+var df=spark.read.sqlanalytics("azuresqlpool.dbo.azurecoursedemo")
+df.write.sqlanalytics("azuresqlpool.dbo.azurecoursedemo2", Constants.INTERNAL)
