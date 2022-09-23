@@ -36,7 +36,7 @@ patsy==0.5.1
 Pillow==7.2.0
 prometheus-client==0.8.0
 prometheus-flask-exporter==0.15.4
-protobuf==3.12.4
+protobuf==3.18.3
 pyarrow==1.0.0
 pycparser==2.20
 pyparsing==2.4.7
